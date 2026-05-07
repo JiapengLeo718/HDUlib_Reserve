@@ -1,0 +1,12 @@
+{
+  "date": "latest",
+  "startTime": "12:00",
+  "durationHours": 8,
+  "categories": ["自习室"],
+  "preferredRooms": ["宋韵云图（四楼）"],
+  "fallbackRooms": "any",
+  "preferredSeat": 17,
+  "seatRange": [17, 58],
+  "preferSocket": false,
+  "requireSocket": false
+}

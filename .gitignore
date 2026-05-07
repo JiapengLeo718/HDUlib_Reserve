@@ -1,0 +1,7 @@
+node_modules/
+storageState.json
+logs/
+data/
+.env
+.DS_Store
+config.json

@@ -1,0 +1,15 @@
+{
+  "name": "hdu-library-seat-reserver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "discover": "node scripts/discover.js",
+    "login": "node scripts/login.js",
+    "plan": "node scripts/plan.js",
+    "reserve": "node scripts/reserve.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

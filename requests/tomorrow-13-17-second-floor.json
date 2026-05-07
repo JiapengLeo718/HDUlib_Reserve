@@ -1,0 +1,10 @@
+{
+  "date": "tomorrow",
+  "startTime": "13:00",
+  "durationHours": 4,
+  "categories": "any",
+  "preferredRooms": ["二楼东", "二楼西", "（二楼"],
+  "fallbackRooms": "any",
+  "preferSocket": false,
+  "requireSocket": false
+}

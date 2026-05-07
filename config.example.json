@@ -1,0 +1,23 @@
+{
+  "url": "https://hdu.huitu.zhishulib.com/#!/Space/Category/list",
+  "openTime": "20:00:00",
+  "timezone": "Asia/Shanghai",
+  "area": "宋韵云图（四楼）",
+  "preferredSeat": 17,
+  "fallbackSeatRange": [17, 58],
+  "startTime": "12:00",
+  "endTime": "20:00",
+  "durationHours": 8,
+  "dateMode": "strict",
+  "allowDateFallback": false,
+  "onDateUnavailable": "fail_fast",
+  "onNoSeat": "try_fallback",
+  "poll": {
+    "startSecondsBeforeOpen": 2,
+    "intervalMs": 700,
+    "durationMs": 45000,
+    "runNowDurationMs": 15000,
+    "requestTimeoutMs": 8000
+  },
+  "capturePayloads": false
+}
