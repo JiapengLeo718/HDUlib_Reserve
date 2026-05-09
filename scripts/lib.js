@@ -428,7 +428,20 @@ function listValue(value) {
 
 function matchesAny(text, values) {
   if (!values.length) return false;
-  return values.some((value) => text === value || text.includes(value));
+  return values.some((value) => text === value || matchesKeyword(text, value));
+}
+
+function matchesKeyword(text, value) {
+  if (!text.includes(value)) return false;
+  if (!/^[一二三四五六七八九十]+楼$/.test(value)) return true;
+
+  let index = text.indexOf(value);
+  while (index >= 0) {
+    const previous = index > 0 ? text[index - 1] : '';
+    if (!/[一二三四五六七八九十]/.test(previous)) return true;
+    index = text.indexOf(value, index + value.length);
+  }
+  return false;
 }
 
 export function scoreCandidates(rooms, req, config) {
